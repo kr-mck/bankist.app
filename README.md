@@ -5,3 +5,8 @@ During the course, I wrote only the JavaScript, while the HTML and CSS were prov
 To use the app, log in with:
 - **Login:** `js`
 - **Password:** `1111`
+
+### Demo Transfer
+To send money, use the following username:
+- **Username:** `jd`
+
