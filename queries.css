@@ -1,0 +1,27 @@
+@media (max-width: 47em) {
+  html {
+    overflow-x: hidden;
+  }
+
+  body {
+    overflow-x: hidden;
+  }
+}
+
+@media (max-width: 34em) {
+  nav {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    row-gap: 2rem;
+    padding: 0;
+  }
+
+  .welcome {
+    grid-column: 1 / 6;
+    justify-self: center;
+  }
+
+  .login {
+    grid-column: 2 / 6;
+  }
+}
