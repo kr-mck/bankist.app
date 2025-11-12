@@ -18,10 +18,18 @@
 
   .welcome {
     grid-column: 1 / 6;
-    justify-self: center;
+    grid-row: 1 / 2;
+    justify-self: right;
   }
 
   .login {
-    grid-column: 2 / 6;
+    grid-column: 1 / 6;
+    justify-self: center;
+  }
+
+  .logo {
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
+    justify-self: left;
   }
 }
