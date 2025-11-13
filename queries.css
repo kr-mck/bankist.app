@@ -9,6 +9,7 @@
 }
 
 @media (max-width: 34em) {
+  /* Header & Login */
   nav {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
