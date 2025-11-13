@@ -228,9 +228,9 @@ const startLogOutTimer = function () {
 let currentAccount, timer;
 
 // //FAKE ALWAYS LOGGED IN
-// containerApp.style.opacity = 100;
-// currentAccount = account1;
-// updateUI(currentAccount);
+containerApp.style.opacity = 100;
+currentAccount = account1;
+updateUI(currentAccount);
 
 btnLogin.addEventListener('click', function (e) {
   // Prevent form from submitting
